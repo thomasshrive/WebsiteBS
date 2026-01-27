@@ -12,7 +12,8 @@ import {
   ArrowRight,
   Upload,
   BarChart3,
-  Calendar
+  Calendar,
+  Factory
 } from "lucide-react";
 
 export default function Home() {
@@ -231,7 +232,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
             <Card className="bg-card hover-elevate" data-testid="card-who-1">
               <CardContent className="p-6">
                 <Building2 className="h-8 w-8 text-primary mb-4" />
@@ -268,6 +269,16 @@ export default function Home() {
                 <h3 className="font-semibold mb-2">Managing Agents</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Deliver compliance excellence to your clients.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card hover-elevate" data-testid="card-who-5">
+              <CardContent className="p-6">
+                <Factory className="h-8 w-8 text-primary mb-4" />
+                <h3 className="font-semibold mb-2">Facilities Managers</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Commercial compliance, centralised and controlled.
                 </p>
               </CardContent>
             </Card>
