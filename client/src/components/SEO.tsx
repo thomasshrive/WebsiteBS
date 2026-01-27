@@ -6,7 +6,7 @@ interface SEOProps {
   path?: string;
 }
 
-const SITE_NAME = "builtserve";
+const SITE_NAME = "BUILTSERVE";
 const BASE_URL = "https://builtserve.co.uk";
 
 export function SEO({ title, description, path = "" }: SEOProps) {

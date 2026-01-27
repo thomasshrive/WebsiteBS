@@ -1,7 +1,7 @@
-# builtserve - Compliance as a Service
+# BUILTSERVE - Compliance as a Service
 
 ## Overview
-builtserve is a trust-first website for building compliance management. It explains the value of Compliance as a Service, reassures users around risk and liability, and funnels visitors into a frictionless onboarding flow.
+BUILTSERVE is a trust-first website for building compliance management. It explains the value of Compliance as a Service, reassures users around risk and liability, and funnels visitors into a frictionless onboarding flow.
 
 **Primary Goal:** Get users to start onboarding by clicking "Check your building"
 

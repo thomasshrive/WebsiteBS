@@ -77,14 +77,14 @@ export async function registerRoutes(
         return res.status(400).json({ error: "Message is required" });
       }
 
-      const systemPrompt = `You are a helpful assistant for builtserve, a building compliance management service. 
+      const systemPrompt = `You are a helpful assistant for BUILTSERVE, a building compliance management service. 
 You help answer questions about:
 - Building safety and compliance requirements (fire safety, electrical, water hygiene, lifts, asbestos, etc.)
-- How builtserve helps manage compliance end-to-end
-- Who builtserve is for (freeholders, RTMs, landlords, managing agents, facilities managers)
+- How BUILTSERVE helps manage compliance end-to-end
+- Who BUILTSERVE is for (freeholders, RTMs, landlords, managing agents, facilities managers)
 - The onboarding process and how to get started
 
-Be concise, professional, and helpful. If you don't know something specific about builtserve's internal operations, suggest the user contact the team directly.`;
+Be concise, professional, and helpful. If you don't know something specific about BUILTSERVE's internal operations, suggest the user contact the team directly.`;
 
       const messages = [
         { role: "system" as const, content: systemPrompt },

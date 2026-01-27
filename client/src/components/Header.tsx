@@ -21,7 +21,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between gap-4 px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 hover-elevate rounded-md px-2 py-1" data-testid="link-home">
           <Shield className="h-6 w-6 text-primary" />
-          <span className="font-semibold text-lg tracking-tight">builtserve</span>
+          <span className="font-semibold text-lg tracking-tight">BUILTSERVE</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1" data-testid="nav-desktop">
