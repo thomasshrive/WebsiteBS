@@ -113,7 +113,7 @@ export function ChatBot() {
         <Card className="fixed bottom-24 right-6 w-80 sm:w-96 h-[480px] flex flex-col shadow-xl z-50" data-testid="chatbot-window">
           {/* Header */}
           <div className="p-4 border-b bg-primary text-primary-foreground rounded-t-lg">
-            <h3 className="font-semibold">BuiltServe Assistant</h3>
+            <h3 className="font-semibold">builtserve Assistant</h3>
             <p className="text-xs opacity-90">Ask about building compliance</p>
           </div>
 
