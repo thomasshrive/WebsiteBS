@@ -94,11 +94,11 @@ export default function Contact() {
                       <div>
                         <h3 className="font-semibold mb-1">Email us</h3>
                         <a 
-                          href="mailto:hello@complyflow.co.uk" 
+                          href="mailto:hello@builtserve.com" 
                           className="text-primary hover:underline"
                           data-testid="link-email"
                         >
-                          hello@complyflow.co.uk
+                          hello@builtserve.com
                         </a>
                         <p className="text-sm text-muted-foreground mt-2">
                           We typically respond within one business day.

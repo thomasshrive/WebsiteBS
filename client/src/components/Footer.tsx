@@ -62,8 +62,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:hello@builtserve.co.uk" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-email">
-                  hello@builtserve.co.uk
+                <a href="mailto:hello@builtserve.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-email">
+                  hello@builtserve.com
                 </a>
               </li>
             </ul>
