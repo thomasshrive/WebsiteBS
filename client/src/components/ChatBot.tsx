@@ -120,7 +120,7 @@ export function ChatBot() {
           onClick={handleOpen}
           data-testid="chat-bubble"
         >
-          <p className="text-sm font-medium">Hi! Need help with compliance?</p>
+          <p className="text-sm font-medium">Want to remove the stress of compliance?</p>
           <div className="absolute bottom-[-6px] right-6 w-3 h-3 bg-primary rotate-45" />
         </div>
       )}
