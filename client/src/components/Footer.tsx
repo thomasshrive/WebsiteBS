@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4" data-testid="link-footer-logo">
               <Shield className="h-5 w-5 text-primary" />
-              <span className="font-semibold">BUILTSERVE</span>
+              <span className="font-semibold">BUILT<span className="text-primary">SERVE</span></span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Building compliance, simplified. We manage the process so you can focus on what matters.
