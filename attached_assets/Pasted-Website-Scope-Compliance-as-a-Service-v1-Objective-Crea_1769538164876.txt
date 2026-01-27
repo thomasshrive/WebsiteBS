@@ -1,0 +1,221 @@
+Website Scope — Compliance as a Service (v1)
+Objective
+
+Create a simple, trust-first website that:
+
+Explains the value of Compliance as a Service
+
+Reassures users around risk and liability
+
+Funnels visitors into a frictionless onboarding flow
+
+Does not overclaim AI or insurance
+
+Primary outcome:
+👉 User starts onboarding (“Check your building”)
+
+Pages & Routes
+1️⃣ Home (/)
+
+Purpose: Trust + clarity + action
+
+Sections:
+
+Hero (outcome-focused headline + CTA)
+
+Problem (missed compliance, liability, admin burden)
+
+Solution (3-step explanation)
+
+Why it works (AI + human sign-off)
+
+Who it’s for (Freeholders, RTMs, landlords, agents)
+
+Risk & reassurance (liability, PI, audit trail)
+
+Primary CTA: “Check your building”
+
+2️⃣ How It Works (/how-it-works)
+
+Purpose: Reduce uncertainty before onboarding
+
+Content:
+
+Upload what you have (any documents)
+
+We build a compliance profile
+
+You get a live 2-year compliance timeline
+
+We keep it up to date and audit-ready
+
+Include:
+
+What AI does vs humans
+
+What happens if docs are missing
+
+What “green / amber / red” means
+
+CTA repeated: “Check your building”
+
+3️⃣ Who It’s For (/who)
+
+Purpose: Let users self-identify quickly
+
+Sections for:
+
+Freeholders
+
+RTMs / RMCs
+
+Landlords (single or portfolio)
+
+Managing agents
+
+Each section answers:
+
+Why compliance is hard for them
+
+What this removes from their plate
+
+No deep features.
+
+4️⃣ Compliance Coverage (/coverage)
+
+Purpose: Credibility, not exhaustiveness
+
+High-level categories only:
+
+Fire safety
+
+Electrical
+
+Water hygiene
+
+Lifts
+
+Emergency lighting
+
+Asbestos (where applicable)
+
+Explicit note:
+
+Coverage depends on building type, height, and use — assessed during onboarding.
+
+5️⃣ Risk & Liability (/risk)
+
+Purpose: De-risk buying decision
+
+Clearly state:
+
+Legal liability remains with duty holder
+
+Platform manages compliance process end-to-end
+
+Human sign-off on outputs
+
+Professional indemnity in place
+
+Full audit trail and evidence retention
+
+This page is for:
+
+Lawyers
+
+Directors
+
+Insurers
+
+6️⃣ Onboarding (/onboard)
+
+Purpose: Convert
+
+Step 1: Building basics
+
+Address (auto-complete)
+
+Building type
+
+Approx year built
+
+Height band
+
+Number of units
+
+Lifts (yes/no)
+
+Commercial units (yes/no)
+
+Step 2: Document upload
+
+Large drag-and-drop
+
+“Upload anything you have” copy
+
+Accept PDFs, images, docs
+
+Step 3: Confirmation
+
+“We’re analysing your building”
+
+What happens next
+
+Expected timeline
+
+No payment at v1 unless you want it.
+
+7️⃣ Contact / Trust (/contact)
+
+Purpose: Human reassurance
+
+Contact email
+
+Optional call booking
+
+Short “who we are” paragraph
+
+Emphasis on compliance expertise, not startup hype
+
+Core UX Principles
+
+Calm, professional, boring (this is a feature)
+
+No popups
+
+No chatbots (initially)
+
+No “Book a demo”
+
+Plain English everywhere
+
+Technical Requirements (v1)
+
+Static or lightweight SSR (Next.js / Remix fine)
+
+Mobile-first
+
+Fast load (<2s)
+
+Secure file upload (encrypted at rest)
+
+Basic analytics (page views, CTA clicks)
+
+Explicitly Out of Scope (v1)
+
+Pricing tables
+
+Login / dashboard
+
+Insurance products
+
+Trade booking
+
+Deep regulation explanations
+
+AI explanations beyond high level
+
+Primary CTA Copy (standardise this)
+
+Check your building
+Upload what you have. We’ll tell you what’s missing, what matters, and what’s next.
