@@ -97,12 +97,12 @@ export function ChatBot() {
   };
 
   return (
-    <>
+    <div className="fixed bottom-6 right-6 z-[9999]" style={{ position: 'fixed' }}>
       {/* Chat Button */}
       <Button
         onClick={() => setIsOpen(!isOpen)}
         size="icon"
-        className="fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg z-50"
+        className="h-14 w-14 rounded-full shadow-lg"
         data-testid="button-chatbot-toggle"
       >
         {isOpen ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
@@ -110,7 +110,7 @@ export function ChatBot() {
 
       {/* Chat Window */}
       {isOpen && (
-        <Card className="fixed bottom-24 right-6 w-80 sm:w-96 h-[480px] flex flex-col shadow-xl z-50" data-testid="chatbot-window">
+        <Card className="absolute bottom-16 right-0 w-80 sm:w-96 h-[480px] flex flex-col shadow-xl" data-testid="chatbot-window">
           {/* Header */}
           <div className="p-4 border-b bg-primary text-primary-foreground rounded-t-lg">
             <h3 className="font-semibold">BUILTSERVE Assistant</h3>
@@ -165,6 +165,6 @@ export function ChatBot() {
           </div>
         </Card>
       )}
-    </>
+    </div>
   );
 }
