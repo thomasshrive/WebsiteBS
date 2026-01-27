@@ -33,7 +33,7 @@ export default function HowItWorks() {
               Four steps. We take it from there.
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed" data-testid="text-page-subtitle">
-              BUILTSERVE manages compliance end-to-end — starting with a clear compliance profile and a free baseline compliance visit when you join.
+              Compliance handled in 4 steps.
             </p>
           </div>
         </div>

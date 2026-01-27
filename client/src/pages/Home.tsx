@@ -117,7 +117,7 @@ export default function Home() {
               Four steps. We take it from there.
             </h2>
             <p className="text-lg text-muted-foreground" data-testid="text-solution-subtitle">
-              BUILTSERVE manages compliance end-to-end — starting with a clear compliance profile and a free baseline compliance visit when you join.
+              Compliance handled in 4 steps.
             </p>
           </div>
 
