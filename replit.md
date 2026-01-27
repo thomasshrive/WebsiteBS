@@ -1,7 +1,7 @@
-# ComplyFlow - Compliance as a Service
+# BuiltServe - Compliance as a Service
 
 ## Overview
-ComplyFlow is a trust-first website for building compliance management. It explains the value of Compliance as a Service, reassures users around risk and liability, and funnels visitors into a frictionless onboarding flow.
+BuiltServe is a trust-first website for building compliance management. It explains the value of Compliance as a Service, reassures users around risk and liability, and funnels visitors into a frictionless onboarding flow.
 
 **Primary Goal:** Get users to start onboarding by clicking "Check your building"
 

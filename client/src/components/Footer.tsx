@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4" data-testid="link-footer-logo">
               <Shield className="h-5 w-5 text-primary" />
-              <span className="font-semibold">ComplyFlow</span>
+              <span className="font-semibold">BuiltServe</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Building compliance, simplified. We manage the process so you can focus on what matters.
@@ -62,8 +62,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:hello@complyflow.co.uk" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-email">
-                  hello@complyflow.co.uk
+                <a href="mailto:hello@builtserve.co.uk" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-email">
+                  hello@builtserve.co.uk
                 </a>
               </li>
             </ul>
@@ -72,7 +72,7 @@ export function Footer() {
 
         <div className="border-t mt-10 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} ComplyFlow. All rights reserved.
+            © {new Date().getFullYear()} BuiltServe. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-privacy">

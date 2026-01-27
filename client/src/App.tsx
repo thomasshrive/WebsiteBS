@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { HelmetProvider } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ChatBot } from "@/components/ChatBot";
 import Home from "@/pages/Home";
 import HowItWorks from "@/pages/HowItWorks";
 import WhoItsFor from "@/pages/WhoItsFor";
@@ -41,6 +42,7 @@ function App() {
               <Router />
             </main>
             <Footer />
+            <ChatBot />
           </div>
           <Toaster />
         </TooltipProvider>

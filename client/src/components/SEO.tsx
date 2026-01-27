@@ -6,8 +6,8 @@ interface SEOProps {
   path?: string;
 }
 
-const SITE_NAME = "ComplyFlow";
-const BASE_URL = "https://complyflow.co.uk";
+const SITE_NAME = "BuiltServe";
+const BASE_URL = "https://builtserve.co.uk";
 
 export function SEO({ title, description, path = "" }: SEOProps) {
   const fullTitle = `${title} | ${SITE_NAME}`;
