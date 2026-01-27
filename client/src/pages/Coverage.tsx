@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Flame, 
@@ -97,6 +98,11 @@ const coverageAreas = [
 export default function Coverage() {
   return (
     <div className="flex flex-col">
+      <SEO 
+        title="Compliance Coverage" 
+        description="We manage fire safety, electrical, water hygiene, lifts, emergency lighting, and asbestos compliance for residential and mixed-use buildings."
+        path="/coverage"
+      />
       {/* Hero */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">

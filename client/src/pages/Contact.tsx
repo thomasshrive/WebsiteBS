@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
+import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -54,6 +55,11 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col">
+      <SEO 
+        title="Contact Us" 
+        description="Questions about building compliance? Get in touch with our team. We're here to help you understand your requirements."
+        path="/contact"
+      />
       {/* Hero */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">

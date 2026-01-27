@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Shield, 
@@ -17,6 +18,11 @@ import {
 export default function Home() {
   return (
     <div className="flex flex-col">
+      <SEO 
+        title="Building Compliance, Handled For You" 
+        description="We manage your building's compliance end-to-end — tracking requirements, arranging inspections, and keeping the evidence audit-ready."
+        path="/"
+      />
       {/* Hero Section */}
       <section className="relative py-20 md:py-28 lg:py-36">
         <div className="container mx-auto px-4 md:px-6">
@@ -26,7 +32,7 @@ export default function Home() {
               <span className="text-primary">handled for you</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-subtitle">
-              Stop chasing certificates. We manage your building's compliance requirements end-to-end, keeping you protected and audit-ready.
+              We manage your building's compliance end-to-end — tracking requirements, arranging inspections, and keeping the evidence audit-ready.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/onboard">

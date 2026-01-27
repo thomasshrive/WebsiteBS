@@ -1,5 +1,6 @@
 import { useState, useCallback } from "react";
 import { Link } from "wouter";
+import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -140,6 +141,11 @@ export default function Onboard() {
 
   return (
     <div className="flex flex-col min-h-[calc(100vh-4rem)]">
+      <SEO 
+        title="Check Your Building" 
+        description="Start your compliance journey. Upload what you have and we'll tell you what's missing, what matters, and what's next."
+        path="/onboard"
+      />
       {/* Header */}
       <section className="py-8 md:py-12 border-b">
         <div className="container mx-auto px-4 md:px-6">

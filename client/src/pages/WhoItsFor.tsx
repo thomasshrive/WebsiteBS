@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Building2, 
@@ -68,6 +69,11 @@ const audiences = [
 export default function WhoItsFor() {
   return (
     <div className="flex flex-col">
+      <SEO 
+        title="Who It's For" 
+        description="Built for freeholders, RTMs, RMCs, landlords, and managing agents. If you're responsible for building safety and compliance, we're here to help."
+        path="/who"
+      />
       {/* Hero */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">

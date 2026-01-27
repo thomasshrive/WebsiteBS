@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Upload, 
@@ -17,6 +18,11 @@ import {
 export default function HowItWorks() {
   return (
     <div className="flex flex-col">
+      <SEO 
+        title="How It Works" 
+        description="From chaos to clarity in three simple steps. Upload documents, get your compliance profile, and stay audit-ready with our live timeline."
+        path="/how-it-works"
+      />
       {/* Hero */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">

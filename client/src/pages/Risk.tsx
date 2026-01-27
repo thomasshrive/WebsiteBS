@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Shield, 
@@ -14,6 +15,11 @@ import {
 export default function Risk() {
   return (
     <div className="flex flex-col">
+      <SEO 
+        title="Risk & Liability" 
+        description="Clear information about liability, professional indemnity, human oversight, and audit trails for duty holders, directors, lawyers, and insurers."
+        path="/risk"
+      />
       {/* Hero */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
