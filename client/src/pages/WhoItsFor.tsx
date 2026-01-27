@@ -7,6 +7,7 @@ import {
   Users, 
   Home, 
   Briefcase,
+  Factory,
   ArrowRight,
   CheckCircle2
 } from "lucide-react";
@@ -63,6 +64,19 @@ const audiences = [
       "Keeping on top of regulatory changes"
     ],
     solution: "Deliver compliance excellence at scale. Show your clients exactly where each building stands, with professional reports that demonstrate the value you provide. We make you look good."
+  },
+  {
+    id: "facilities",
+    icon: Factory,
+    title: "Facilities & Asset Managers (Commercial)",
+    description: "You're responsible for keeping complex buildings compliant — offices, retail, industrial, mixed-use — while juggling audits, insurers, and internal stakeholders.",
+    challenges: [
+      "Multiple regulations across different asset types",
+      "Audit and insurer scrutiny",
+      "Disconnected contractors and certificates",
+      "Proving compliance to boards, tenants, and regulators"
+    ],
+    solution: "One system of record for building compliance. Clear timelines, complete evidence, and audit-ready reporting across your portfolio — so you can demonstrate control, not just activity."
   }
 ];
 
@@ -71,7 +85,7 @@ export default function WhoItsFor() {
     <div className="flex flex-col">
       <SEO 
         title="Who It's For" 
-        description="Built for freeholders, RTMs, RMCs, landlords, and managing agents. If you're responsible for building safety and compliance, we're here to help."
+        description="Built for freeholders, RTMs, RMCs, landlords, managing agents, and facilities managers. If you're responsible for building safety and compliance, we're here to help."
         path="/who"
       />
       {/* Hero */}
