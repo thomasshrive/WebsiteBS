@@ -137,7 +137,7 @@ export default function HowItWorks() {
                   Step 4
                 </div>
                 <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-                  We manage compliance ongoing
+                  We manage ongoing compliance
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   From there, we take it on — coordinating inspections, chasing suppliers, and keeping evidence up to date. If anything falls outside the subscription, we flag it clearly and quote before any spend.
