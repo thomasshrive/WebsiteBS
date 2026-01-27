@@ -160,7 +160,7 @@ export default function Home() {
                 <Settings className="h-8 w-8 text-primary" />
               </div>
               <div className="text-sm font-medium text-primary mb-2">Step 4</div>
-              <h3 className="font-semibold text-xl mb-3">We manage ongoing compliance</h3>
+              <h3 className="font-semibold text-xl mb-3">Ongoing compliance management</h3>
               <p className="text-muted-foreground leading-relaxed">
                 We coordinate inspections, chase suppliers, and keep evidence up to date.
               </p>
