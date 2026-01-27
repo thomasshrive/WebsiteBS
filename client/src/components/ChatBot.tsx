@@ -11,6 +11,7 @@ interface Message {
 
 export function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showBubble, setShowBubble] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
@@ -28,6 +29,20 @@ export function ChatBot() {
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (!isOpen) {
+        setShowBubble(true);
+      }
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleOpen = () => {
+    setIsOpen(true);
+    setShowBubble(false);
+  };
 
   const sendMessage = async () => {
     if (!input.trim() || isLoading) return;
@@ -98,9 +113,21 @@ export function ChatBot() {
 
   return (
     <div className="fixed bottom-6 right-6 z-[9999]" style={{ position: 'fixed' }}>
+      {/* Welcome Bubble */}
+      {showBubble && !isOpen && (
+        <div 
+          className="absolute bottom-16 right-0 bg-primary text-primary-foreground px-4 py-3 rounded-lg shadow-lg cursor-pointer animate-bounce mb-2 whitespace-nowrap"
+          onClick={handleOpen}
+          data-testid="chat-bubble"
+        >
+          <p className="text-sm font-medium">Hi! Need help with compliance?</p>
+          <div className="absolute bottom-[-6px] right-6 w-3 h-3 bg-primary rotate-45" />
+        </div>
+      )}
+
       {/* Chat Button */}
       <Button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => isOpen ? setIsOpen(false) : handleOpen()}
         size="icon"
         className="h-14 w-14 rounded-full shadow-lg"
         data-testid="button-chatbot-toggle"
