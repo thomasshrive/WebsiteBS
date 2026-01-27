@@ -13,7 +13,9 @@ import {
   Upload,
   BarChart3,
   Calendar,
-  Factory
+  Factory,
+  ClipboardCheck,
+  Settings
 } from "lucide-react";
 
 export default function Home() {
@@ -107,27 +109,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Solution Section - 3 Steps */}
+      {/* Solution Section - 4 Steps */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-semibold mb-4" data-testid="text-solution-title">
-              Three steps to peace of mind
+              Four steps. We take it from there.
             </h2>
             <p className="text-lg text-muted-foreground" data-testid="text-solution-subtitle">
-              We've simplified building compliance down to what actually matters.
+              BUILTSERVE manages compliance end-to-end — starting with a clear compliance profile and a free baseline compliance visit when you join.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="text-center" data-testid="step-1">
               <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
                 <Upload className="h-8 w-8 text-primary" />
               </div>
               <div className="text-sm font-medium text-primary mb-2">Step 1</div>
-              <h3 className="font-semibold text-xl mb-3">Upload your documents</h3>
+              <h3 className="font-semibold text-xl mb-3">Upload what you have</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Send us whatever you have — certificates, reports, invoices. We'll work with it.
+                Send us whatever documents you've got. We review everything and identify what applies.
               </p>
             </div>
 
@@ -136,20 +138,31 @@ export default function Home() {
                 <BarChart3 className="h-8 w-8 text-primary" />
               </div>
               <div className="text-sm font-medium text-primary mb-2">Step 2</div>
-              <h3 className="font-semibold text-xl mb-3">Get your compliance profile</h3>
+              <h3 className="font-semibold text-xl mb-3">Get your profile & estimate</h3>
               <p className="text-muted-foreground leading-relaxed">
-                We analyse everything and build a clear picture of where you stand right now.
+                We build a clear picture of where you stand, plus an estimate of ongoing costs.
               </p>
             </div>
 
             <div className="text-center" data-testid="step-3">
               <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                <Calendar className="h-8 w-8 text-primary" />
+                <ClipboardCheck className="h-8 w-8 text-primary" />
               </div>
               <div className="text-sm font-medium text-primary mb-2">Step 3</div>
-              <h3 className="font-semibold text-xl mb-3">Stay compliant, always</h3>
+              <h3 className="font-semibold text-xl mb-3">Baseline compliance visit</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Your live 2-year timeline keeps everything on track. We handle the updates.
+                We visit your building to verify key systems and ensure the plan reflects reality.
+              </p>
+            </div>
+
+            <div className="text-center" data-testid="step-4">
+              <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+                <Settings className="h-8 w-8 text-primary" />
+              </div>
+              <div className="text-sm font-medium text-primary mb-2">Step 4</div>
+              <h3 className="font-semibold text-xl mb-3">We manage it ongoing</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                We coordinate inspections, chase suppliers, and keep evidence up to date.
               </p>
             </div>
           </div>
