@@ -114,11 +114,8 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-semibold mb-4" data-testid="text-solution-title">
-              Four steps. We take it from there.
+              Compliance handled in four steps
             </h2>
-            <p className="text-lg text-muted-foreground" data-testid="text-solution-subtitle">
-              Compliance handled in 4 steps.
-            </p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">

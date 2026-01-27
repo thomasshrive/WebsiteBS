@@ -30,11 +30,8 @@ export default function HowItWorks() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-6" data-testid="text-page-title">
-              Four steps. We take it from there.
+              Compliance handled in four steps
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed" data-testid="text-page-subtitle">
-              Compliance handled in 4 steps.
-            </p>
           </div>
         </div>
       </section>
