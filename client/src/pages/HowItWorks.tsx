@@ -12,7 +12,9 @@ import {
   CheckCircle2,
   AlertCircle,
   Clock,
-  CircleDot
+  CircleDot,
+  ClipboardCheck,
+  Settings
 } from "lucide-react";
 
 export default function HowItWorks() {
@@ -20,7 +22,7 @@ export default function HowItWorks() {
     <div className="flex flex-col">
       <SEO 
         title="How It Works" 
-        description="From chaos to clarity in three simple steps. Upload documents, get your compliance profile, and stay audit-ready with our live timeline."
+        description="Four steps. We take it from there. BUILTSERVE manages compliance end-to-end — starting with a clear compliance profile and a free baseline compliance visit when you join."
         path="/how-it-works"
       />
       {/* Hero */}
@@ -28,16 +30,16 @@ export default function HowItWorks() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-6" data-testid="text-page-title">
-              How it works
+              Four steps. We take it from there.
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed" data-testid="text-page-subtitle">
-              From chaos to clarity in three simple steps. No expertise required — just upload what you have.
+              BUILTSERVE manages compliance end-to-end — starting with a clear compliance profile and a free baseline compliance visit when you join.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Three Steps Detailed */}
+      {/* Four Steps Detailed */}
       <section className="py-16 md:py-24 bg-muted/30">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
@@ -51,22 +53,11 @@ export default function HowItWorks() {
                   Upload what you have
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Don't worry about organising everything first. Send us whatever documents you have — certificates, reports, invoices, emails, photos. We accept PDFs, images, and common document formats.
+                  Send us whatever documents you've got — certificates, reports, invoices. We review everything and identify what applies to your building.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">No special format required</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Upload multiple files at once</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Secure, encrypted storage</span>
-                  </li>
-                </ul>
+                <p className="text-sm text-muted-foreground italic">
+                  Low effort, no judgement.
+                </p>
               </div>
               <div className="order-1 md:order-2">
                 <Card className="bg-card">
@@ -95,63 +86,65 @@ export default function HowItWorks() {
                   Step 2
                 </div>
                 <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-                  We build your compliance profile
+                  Get your compliance profile & estimate
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Our team analyses your documents and building details to create a comprehensive compliance profile. You'll see exactly where you stand across all major safety categories.
+                  We build a clear picture of where you stand today — what's covered, what's missing, and what's coming up. You'll also receive an initial compliance estimate, so you understand the likely ongoing cost before anything is committed.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Smart document extraction</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Human review of every assessment</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Clear gap identification</span>
-                  </li>
-                </ul>
               </div>
             </div>
 
             {/* Step 3 */}
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center" data-testid="section-step-3">
+            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-20" data-testid="section-step-3">
               <div className="order-2 md:order-1">
                 <div className="inline-flex items-center gap-2 bg-primary/10 rounded-full px-4 py-1.5 text-sm font-medium text-primary mb-4">
                   Step 3
                 </div>
                 <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-                  Stay compliant with your live timeline
+                  Baseline compliance visit
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Your personalised 2-year compliance timeline shows everything coming up. We keep it updated automatically and alert you to what needs attention, when.
+                  We carry out a baseline compliance visit to understand the building, verify key systems, and make sure the compliance plan reflects reality — not just paperwork.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Real-time status updates</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Proactive deadline reminders</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-muted-foreground">Always audit-ready</span>
-                  </li>
-                </ul>
+                <p className="text-xs text-muted-foreground border-l-2 border-primary/30 pl-3">
+                  This is a non-intrusive compliance check, not a condition survey.
+                </p>
               </div>
               <div className="order-1 md:order-2">
                 <Card className="bg-card">
                   <CardContent className="p-8 flex items-center justify-center">
                     <div className="h-32 w-32 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Calendar className="h-16 w-16 text-primary" />
+                      <ClipboardCheck className="h-16 w-16 text-primary" />
                     </div>
                   </CardContent>
                 </Card>
+              </div>
+            </div>
+
+            {/* Step 4 */}
+            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center" data-testid="section-step-4">
+              <div>
+                <Card className="bg-card">
+                  <CardContent className="p-8 flex items-center justify-center">
+                    <div className="h-32 w-32 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Settings className="h-16 w-16 text-primary" />
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+              <div>
+                <div className="inline-flex items-center gap-2 bg-primary/10 rounded-full px-4 py-1.5 text-sm font-medium text-primary mb-4">
+                  Step 4
+                </div>
+                <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+                  We manage compliance ongoing
+                </h2>
+                <p className="text-muted-foreground mb-6 leading-relaxed">
+                  From there, we take it on — coordinating inspections, chasing suppliers, and keeping evidence up to date. If anything falls outside the subscription, we flag it clearly and quote before any spend.
+                </p>
+                <p className="text-sm font-medium text-primary">
+                  This is where the relief lands.
+                </p>
               </div>
             </div>
           </div>
