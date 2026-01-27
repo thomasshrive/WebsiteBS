@@ -11,8 +11,8 @@ import {
   CheckCircle2, 
   ArrowRight,
   Upload,
-  BarChart3,
-  Calendar
+  ClipboardCheck,
+  Settings
 } from "lucide-react";
 
 export default function Home() {
@@ -28,11 +28,11 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 leading-tight" data-testid="text-hero-title">
-              Building compliance,<br />
-              <span className="text-primary">handled for you</span>
+              Three steps.<br />
+              <span className="text-primary">We take it from there.</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-subtitle">
-              We manage your building's compliance end-to-end. We track requirements, arranging inspections, and keeping the evidence audit-ready.
+              Builtserve manages compliance end-to-end — including a free baseline compliance visit when you join.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/onboard">
@@ -47,9 +47,6 @@ export default function Home() {
                 </Button>
               </Link>
             </div>
-            <p className="text-sm text-muted-foreground mt-6" data-testid="text-hero-promise">
-              Upload what you have. We'll tell you what's missing, what matters, and what's next.
-            </p>
           </div>
         </div>
       </section>
@@ -109,47 +106,69 @@ export default function Home() {
       {/* Solution Section - 3 Steps */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-4" data-testid="text-solution-title">
-              Three steps to peace of mind
-            </h2>
-            <p className="text-lg text-muted-foreground" data-testid="text-solution-subtitle">
-              We've simplified building compliance down to what actually matters.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="text-center" data-testid="step-1">
-              <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                <Upload className="h-8 w-8 text-primary" />
+          <div className="max-w-4xl mx-auto space-y-12">
+            {/* Step 1 */}
+            <div className="flex flex-col md:flex-row gap-6 items-start" data-testid="step-1">
+              <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                <Upload className="h-7 w-7 text-primary" />
               </div>
-              <div className="text-sm font-medium text-primary mb-2">Step 1</div>
-              <h3 className="font-semibold text-xl mb-3">Upload your documents</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Send us whatever you have — certificates, reports, invoices. We'll work with it.
-              </p>
+              <div>
+                <div className="text-sm font-medium text-primary mb-1">Step 1</div>
+                <h3 className="font-semibold text-xl mb-2">Upload what you have</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Send us whatever documents you've got — certificates, reports, invoices. We review everything and identify what applies to your building.
+                </p>
+              </div>
             </div>
 
-            <div className="text-center" data-testid="step-2">
-              <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                <BarChart3 className="h-8 w-8 text-primary" />
+            {/* Step 2 */}
+            <div className="flex flex-col md:flex-row gap-6 items-start" data-testid="step-2">
+              <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                <ClipboardCheck className="h-7 w-7 text-primary" />
               </div>
-              <div className="text-sm font-medium text-primary mb-2">Step 2</div>
-              <h3 className="font-semibold text-xl mb-3">Get your compliance profile</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                We analyse everything and build a clear picture of where you stand right now.
-              </p>
+              <div>
+                <div className="text-sm font-medium text-primary mb-1">Step 2</div>
+                <h3 className="font-semibold text-xl mb-2">Baseline compliance visit</h3>
+                <p className="text-muted-foreground leading-relaxed mb-3">
+                  We carry out a baseline compliance visit to understand the building, verify key systems, and make sure our plan reflects reality — not just paperwork.
+                </p>
+                <p className="text-sm text-muted-foreground/80 italic">
+                  This is a non-intrusive compliance check, not a condition survey. This keeps you legally clean.
+                </p>
+              </div>
             </div>
 
-            <div className="text-center" data-testid="step-3">
-              <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                <Calendar className="h-8 w-8 text-primary" />
+            {/* Step 3 */}
+            <div className="flex flex-col md:flex-row gap-6 items-start" data-testid="step-3">
+              <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                <Settings className="h-7 w-7 text-primary" />
               </div>
-              <div className="text-sm font-medium text-primary mb-2">Step 3</div>
-              <h3 className="font-semibold text-xl mb-3">Stay compliant, always</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Your live 2-year timeline keeps everything on track. We handle the updates.
-              </p>
+              <div>
+                <div className="text-sm font-medium text-primary mb-1">Step 3</div>
+                <h3 className="font-semibold text-xl mb-2">We manage compliance ongoing</h3>
+                <p className="text-muted-foreground leading-relaxed mb-3">
+                  From there, we handle the ongoing work — coordinating inspections, chasing suppliers, and keeping evidence up to date.
+                </p>
+                <p className="text-sm text-muted-foreground/80 italic">
+                  If anything falls outside the subscription, we flag it clearly and quote before any spend.
+                </p>
+              </div>
+            </div>
+
+            {/* Value Props */}
+            <div className="grid sm:grid-cols-3 gap-4 pt-6 border-t">
+              <div className="text-center p-4" data-testid="value-prop-1">
+                <CheckCircle2 className="h-6 w-6 text-primary mx-auto mb-2" />
+                <p className="font-medium text-sm">You act</p>
+              </div>
+              <div className="text-center p-4" data-testid="value-prop-2">
+                <CheckCircle2 className="h-6 w-6 text-primary mx-auto mb-2" />
+                <p className="font-medium text-sm">We manage</p>
+              </div>
+              <div className="text-center p-4" data-testid="value-prop-3">
+                <CheckCircle2 className="h-6 w-6 text-primary mx-auto mb-2" />
+                <p className="font-medium text-sm">No surprise bills</p>
+              </div>
             </div>
           </div>
         </div>
