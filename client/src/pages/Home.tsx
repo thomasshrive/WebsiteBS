@@ -162,7 +162,7 @@ export default function Home() {
               <div className="text-sm font-medium text-primary mb-2">Step 4</div>
               <h3 className="font-semibold text-xl mb-3">Ongoing compliance management</h3>
               <p className="text-muted-foreground leading-relaxed">
-                We coordinate inspections, chase suppliers, and keep evidence up to date.
+                We take care of the rest — coordinating inspections and keeping evidence up to date.
               </p>
             </div>
           </div>

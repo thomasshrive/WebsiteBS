@@ -140,7 +140,7 @@ export default function HowItWorks() {
                   Ongoing compliance management
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  From there, we take it on — coordinating inspections, chasing suppliers, and keeping evidence up to date. If anything falls outside the subscription, we flag it clearly and quote before any spend.
+                  We take care of the rest — coordinating inspections, chasing suppliers, and keeping evidence up to date. If anything falls outside the subscription, we flag it clearly and quote before any spend.
                 </p>
                 <p className="text-sm font-medium text-primary">
                   This is where the relief lands.
