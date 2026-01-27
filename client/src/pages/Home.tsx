@@ -20,7 +20,7 @@ export default function Home() {
     <div className="flex flex-col">
       <SEO 
         title="Building Compliance, Handled For You" 
-        description="We manage your building's compliance end-to-end — tracking requirements, arranging inspections, and keeping the evidence audit-ready."
+        description="We manage your building's compliance end-to-end. We track requirements, arranging inspections, and keeping the evidence audit-ready."
         path="/"
       />
       {/* Hero Section */}
@@ -32,7 +32,7 @@ export default function Home() {
               <span className="text-primary">handled for you</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-subtitle">
-              We manage your building's compliance end-to-end — tracking requirements, arranging inspections, and keeping the evidence audit-ready.
+              We manage your building's compliance end-to-end. We track requirements, arranging inspections, and keeping the evidence audit-ready.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/onboard">
