@@ -151,6 +151,21 @@ export default function WhoItsFor() {
                     </CardContent>
                   </Card>
                 </div>
+
+                {/* Quote for Managing Agents */}
+                {audience.id === "agents" && (
+                  <div className="mt-8 p-6 bg-muted/50 rounded-lg border-l-4 border-primary" data-testid="quote-managing-agents">
+                    <blockquote className="text-foreground leading-relaxed italic">
+                      "Property managers have always been jack-of-all-trades... part customer service, part building expert, part compliance officer, part legal interpreter. Taking compliance off their plate lets them focus on what residents actually feel day to day: leaks, repairs, and looking after the fabric of the building."
+                    </blockquote>
+                    <div className="mt-4 flex items-center gap-3">
+                      <div>
+                        <p className="font-semibold text-sm">George Fry, ACA</p>
+                        <p className="text-sm text-muted-foreground">Operations Director, Fry & Co</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
