@@ -1,0 +1,85 @@
+What’s wrong with the current answer
+
+This line is the problem:
+
+“BUILTSERVE does not handle the physical compliance work directly.”
+
+To a customer, that reads as:
+
+“I still have to do stuff”
+
+“I still have to manage suppliers”
+
+“This is just another dashboard”
+
+Which is not what you’re offering.
+
+The truth you need to convey (very precisely)
+
+The correct position is:
+
+✅ Yes, we manage the compliance work
+
+✅ Yes, inspections and checks are carried out
+
+✅ No, we don’t personally inspect everything
+
+✅ We coordinate, book, chase, verify, and evidence it
+
+✅ Work is delivered via trusted, certified professionals
+
+That’s a huge difference.
+
+Recommended replacement answer (use this)
+
+Here’s a clear, accurate, customer-safe version your chatbot should use:
+
+Yes — Builtserve manages building compliance end-to-end.
+
+We take responsibility for coordinating and managing all required compliance activity, including arranging inspections, chasing suppliers, checking evidence, and keeping everything up to date.
+
+The physical inspections and specialist work are carried out by certified professionals from our trusted partner network or your existing suppliers — but we handle the organisation, oversight, and ongoing management so you don’t have to.
+
+If something falls outside the subscription, we flag it clearly and quote before any work is done.
+
+That answer:
+
+Says yes first (important psychologically)
+
+Explains how without legal overreach
+
+Reinforces “we do the work”
+
+Matches your website promise exactly
+
+Slightly shorter version (if you want it punchier)
+
+Yes — Builtserve manages compliance end-to-end.
+We arrange and coordinate the required inspections through certified professionals, chase everything through, and keep the evidence up to date, so you don’t have to manage it yourself.
+
+What to avoid saying (ever)
+
+❌ “We’re just a platform”
+❌ “We don’t handle the work”
+❌ “We only track compliance”
+❌ “We connect you with suppliers”
+
+Those kill conversion instantly.
+
+One internal rule for the chatbot
+
+If a user asks:
+
+“Do you actually do the compliance work?”
+
+The answer must always start with “Yes”, then clarify how.
+
+If you want, next I can:
+
+Rewrite all chatbot intents so they align with this model
+
+Create a “what’s included vs excluded” response
+
+Or sanity-check the chatbot against a sceptical director’s questions
+
+You’re right to catch this — fixing it now avoids a lot of confusion later.
