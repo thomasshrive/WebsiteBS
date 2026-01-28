@@ -190,18 +190,21 @@ export default function Risk() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-3" data-testid="text-clarify-title">
-                      Important clarification
+                      Builtserve is a managed compliance service.
                     </h3>
                     <div className="space-y-4 text-muted-foreground leading-relaxed">
-                      <p data-testid="text-clarify-1">
-                        <strong>We are not insurers.</strong> We do not provide building insurance, liability insurance, or any insurance products. Your existing insurance arrangements should remain in place.
-                      </p>
-                      <p data-testid="text-clarify-2">
-                        <strong>We are not contractors.</strong> We do not carry out inspections, testing, or remediation work. We help you manage the process of ensuring these are done by qualified professionals.
-                      </p>
-                      <p data-testid="text-clarify-3">
-                        <strong>We are not legal advisers.</strong> While our team understands building safety regulations, we do not provide legal advice. For complex legal questions, you should consult a qualified solicitor.
-                      </p>
+                      <div data-testid="text-clarify-1">
+                        <p className="font-semibold text-foreground">We are not an insurer.</p>
+                        <p>We don't provide building or liability insurance, and your existing insurance arrangements remain in place.</p>
+                      </div>
+                      <div data-testid="text-clarify-2">
+                        <p className="font-semibold text-foreground">We are not a general contractor.</p>
+                        <p>We don't position ourselves as a traditional maintenance or works contractor. Where appropriate, we coordinate inspections and compliance activity through a combination of your existing suppliers, trusted partner contractors, or Builtserve-arranged specialists, and we manage the process end-to-end on your behalf.</p>
+                      </div>
+                      <div data-testid="text-clarify-3">
+                        <p className="font-semibold text-foreground">We are not legal advisers.</p>
+                        <p>While our team understands building safety and compliance requirements, we don't provide legal advice. For complex legal matters, you should consult a qualified solicitor.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
