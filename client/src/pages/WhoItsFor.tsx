@@ -16,6 +16,19 @@ import georgeFryImage from "@assets/F&CHS(LR)-14_1769608323483.webp";
 
 const audiences = [
   {
+    id: "agents",
+    icon: Briefcase,
+    title: "Managing Agents",
+    description: "Your clients trust you to keep their buildings safe and compliant. But with multiple buildings and competing demands, maintaining that standard is a constant challenge.",
+    challenges: [
+      "Managing compliance across many buildings",
+      "Meeting client expectations consistently",
+      "Demonstrating value to building owners",
+      "Keeping on top of regulatory changes"
+    ],
+    solution: "Deliver compliance excellence at scale. Show your clients exactly where each building stands, with professional reports that demonstrate the value you provide. We make you look good."
+  },
+  {
     id: "freeholders",
     icon: Building2,
     title: "Freeholders",
@@ -53,19 +66,6 @@ const audiences = [
       "Preparing for inspections at short notice"
     ],
     solution: "One place to manage compliance across your whole portfolio. We scale with you — same process, same clarity, whether you're adding your first rental or your fiftieth."
-  },
-  {
-    id: "agents",
-    icon: Briefcase,
-    title: "Managing Agents",
-    description: "Your clients trust you to keep their buildings safe and compliant. But with multiple buildings and competing demands, maintaining that standard is a constant challenge.",
-    challenges: [
-      "Managing compliance across many buildings",
-      "Meeting client expectations consistently",
-      "Demonstrating value to building owners",
-      "Keeping on top of regulatory changes"
-    ],
-    solution: "Deliver compliance excellence at scale. Show your clients exactly where each building stands, with professional reports that demonstrate the value you provide. We make you look good."
   },
   {
     id: "facilities",
