@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { 
   Building2, 
   Users, 
@@ -11,6 +12,7 @@ import {
   ArrowRight,
   CheckCircle2
 } from "lucide-react";
+import georgeFryImage from "@assets/F&CHS(LR)-14_1769608323483.webp";
 
 const audiences = [
   {
@@ -159,6 +161,10 @@ export default function WhoItsFor() {
                       "Property managers have always been jack-of-all-trades... part customer service, part building expert, part compliance officer, part legal interpreter. Taking compliance off their plate lets them focus on what residents actually feel day to day: leaks, repairs, and looking after the fabric of the building."
                     </blockquote>
                     <div className="mt-4 flex items-center gap-3">
+                      <Avatar className="h-12 w-12">
+                        <AvatarImage src={georgeFryImage} alt="George Fry" />
+                        <AvatarFallback>GF</AvatarFallback>
+                      </Avatar>
                       <div>
                         <p className="font-semibold text-sm">George Fry, ACA</p>
                         <p className="text-sm text-muted-foreground">Operations Director, Fry & Co</p>
