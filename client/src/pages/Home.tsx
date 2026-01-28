@@ -316,7 +316,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
             <Card className="bg-card" data-testid="testimonial-george">
               <CardContent className="p-8">
                 <blockquote className="text-lg text-foreground leading-relaxed italic mb-6">
@@ -330,6 +330,23 @@ export default function Home() {
                   <div>
                     <p className="font-semibold">George Fry, ACA</p>
                     <p className="text-sm text-muted-foreground">Operations Director, Fry & Co</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card" data-testid="testimonial-colin">
+              <CardContent className="p-8">
+                <blockquote className="text-lg text-foreground leading-relaxed italic mb-6">
+                  "Compliance has become a job in its own right. Builtserve takes that weight off the people responsible for building safety — directors, managing agents, and duty holders."
+                </blockquote>
+                <div className="flex items-center gap-4">
+                  <Avatar className="h-14 w-14">
+                    <AvatarFallback>CS</AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <p className="font-semibold">Colin Stokes</p>
+                    <p className="text-sm text-muted-foreground">CEO, Adivuo</p>
                   </div>
                 </div>
               </CardContent>
