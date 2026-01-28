@@ -19,6 +19,7 @@ import {
   Settings
 } from "lucide-react";
 import georgeFryImage from "@assets/F&CHS(LR)-14_1769608323483.webp";
+import colinStokesImage from "@assets/download-2_1769608685039.jpg";
 
 export default function Home() {
   return (
@@ -342,6 +343,7 @@ export default function Home() {
                 </blockquote>
                 <div className="flex items-center gap-4">
                   <Avatar className="h-14 w-14">
+                    <AvatarImage src={colinStokesImage} alt="Colin Stokes" />
                     <AvatarFallback>CS</AvatarFallback>
                   </Avatar>
                   <div>
