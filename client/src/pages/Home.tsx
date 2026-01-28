@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { 
   Shield, 
   FileCheck, 
@@ -17,6 +18,7 @@ import {
   ClipboardCheck,
   Settings
 } from "lucide-react";
+import georgeFryImage from "@assets/F&CHS(LR)-14_1769608323483.webp";
 
 export default function Home() {
   return (
@@ -301,6 +303,37 @@ export default function Home() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-16 md:py-24">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4" data-testid="text-testimonials-title">
+              What people are saying
+            </h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <Card className="bg-card" data-testid="testimonial-george">
+              <CardContent className="p-8">
+                <blockquote className="text-lg text-foreground leading-relaxed italic mb-6">
+                  "Property managers have always been jack-of-all-trades... part customer service, part building expert, part compliance officer, part legal interpreter. Taking compliance off their plate lets them focus on what residents actually feel day to day: leaks, repairs, and looking after the fabric of the building."
+                </blockquote>
+                <div className="flex items-center gap-4">
+                  <Avatar className="h-14 w-14">
+                    <AvatarImage src={georgeFryImage} alt="George Fry" />
+                    <AvatarFallback>GF</AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <p className="font-semibold">George Fry, ACA</p>
+                    <p className="text-sm text-muted-foreground">Operations Director, Fry & Co</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
