@@ -384,7 +384,7 @@ export default function Onboard() {
                         <h2 className="text-xl font-semibold">Upload documents</h2>
                       </div>
                       <p className="text-muted-foreground text-sm">
-                        Upload any compliance documents you have — certificates, reports, invoices. Don't worry about organising them; we'll handle that.
+                        Upload any compliance documents you have: certificates, reports, invoices. Don't worry about organising them; we'll handle that.
                       </p>
 
                       {/* Drop Zone */}
@@ -398,7 +398,7 @@ export default function Onboard() {
                         <Upload className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
                         <p className="font-medium mb-1">Drop files here or click to browse</p>
                         <p className="text-sm text-muted-foreground">
-                          PDF, images, Word documents — anything you have
+                          PDF, images, Word documents, anything you have
                         </p>
                         <input
                           id="file-input"

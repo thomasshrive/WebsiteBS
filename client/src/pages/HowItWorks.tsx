@@ -22,7 +22,7 @@ export default function HowItWorks() {
     <div className="flex flex-col">
       <SEO 
         title="How It Works" 
-        description="Four steps. We take it from there. BUILTSERVE manages compliance end-to-end — starting with a clear compliance profile and a free baseline compliance visit when you join."
+        description="Four steps. We take it from there. BUILTSERVE manages compliance end-to-end, starting with a clear compliance profile and a free baseline compliance visit when you join."
         path="/how-it-works"
       />
       {/* Hero */}
@@ -50,7 +50,7 @@ export default function HowItWorks() {
                   Upload what you have
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Send us whatever documents you've got — certificates, reports, invoices. We review everything and identify what applies to your building.
+                  Send us whatever documents you've got: certificates, reports, invoices. We review everything and identify what applies to your building.
                 </p>
                 <p className="text-sm text-muted-foreground italic">
                   Low effort, no judgement.
@@ -86,7 +86,7 @@ export default function HowItWorks() {
                   Get your compliance profile & estimate
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  We build a clear picture of where you stand today — what's covered, what's missing, and what's coming up. You'll also receive an initial compliance estimate, so you understand the likely ongoing cost before anything is committed.
+                  We build a clear picture of where you stand today: what's covered, what's missing, and what's coming up. You'll also receive an initial compliance estimate, so you understand the likely ongoing cost before anything is committed.
                 </p>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function HowItWorks() {
                   Baseline compliance visit
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  We carry out a baseline compliance visit to understand the building, verify key systems, and make sure the compliance plan reflects reality — not just paperwork.
+                  We carry out a baseline compliance visit to understand the building, verify key systems, and make sure the compliance plan reflects reality, not just paperwork.
                 </p>
                 <p className="text-xs text-muted-foreground border-l-2 border-primary/30 pl-3">
                   This is a non-intrusive compliance check, not a condition survey.
@@ -137,7 +137,7 @@ export default function HowItWorks() {
                   We take care of the rest
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  From here, we handle everything — coordinating inspections, chasing suppliers, and keeping evidence up to date. If anything falls outside the subscription, we flag it clearly and quote before any spend.
+                  From here, we handle everything: coordinating inspections, chasing suppliers, and keeping evidence up to date. If anything falls outside the subscription, we flag it clearly and quote before any spend.
                 </p>
                 <p className="text-sm font-medium text-primary">
                   This is where the relief lands.
@@ -240,7 +240,7 @@ export default function HowItWorks() {
                     <CheckCircle2 className="h-5 w-5 text-green-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Green — Compliant</h3>
+                    <h3 className="font-semibold text-lg mb-1">Green: Compliant</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">
                       Everything is in order. Valid certificates are in place and no action is needed right now.
                     </p>
@@ -254,7 +254,7 @@ export default function HowItWorks() {
                     <Clock className="h-5 w-5 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Amber — Attention needed</h3>
+                    <h3 className="font-semibold text-lg mb-1">Amber: Attention needed</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">
                       Something is coming up or requires action soon. A certificate may be expiring, or documentation is needed.
                     </p>
@@ -268,7 +268,7 @@ export default function HowItWorks() {
                     <AlertCircle className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Red — Urgent action required</h3>
+                    <h3 className="font-semibold text-lg mb-1">Red: Urgent action required</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">
                       A compliance issue needs immediate attention. A certificate has expired, or a required inspection is overdue.
                     </p>

@@ -169,19 +169,19 @@ export default function Coverage() {
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                        <span><strong>Building type</strong> — Residential, mixed-use, or commercial</span>
+                        <span><strong>Building type:</strong> Residential, mixed-use, or commercial</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                        <span><strong>Height</strong> — Different rules apply to buildings over 11m and 18m</span>
+                        <span><strong>Height:</strong> Different rules apply to buildings over 11m and 18m</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                        <span><strong>Age</strong> — Older buildings may have additional requirements (e.g., asbestos)</span>
+                        <span><strong>Age:</strong> Older buildings may have additional requirements (e.g., asbestos)</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                        <span><strong>Features</strong> — Lifts, car parks, communal areas all affect requirements</span>
+                        <span><strong>Features:</strong> Lifts, car parks, communal areas all affect requirements</span>
                       </li>
                     </ul>
                     <p className="text-muted-foreground mt-4 leading-relaxed">

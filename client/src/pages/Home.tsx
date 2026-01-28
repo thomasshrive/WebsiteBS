@@ -271,7 +271,7 @@ export default function Home() {
                 <Building2 className="h-8 w-8 text-primary mb-4" />
                 <h3 className="font-semibold mb-2">Landlords</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Single property or portfolio — we scale with you.
+                  Single property or portfolio, we scale with you.
                 </p>
               </CardContent>
             </Card>
@@ -339,7 +339,7 @@ export default function Home() {
             <Card className="bg-card" data-testid="testimonial-colin">
               <CardContent className="p-8">
                 <blockquote className="text-lg text-foreground leading-relaxed italic mb-6">
-                  "Compliance has become a job in its own right. Builtserve takes that weight off the people responsible for building safety — directors, managing agents, and duty holders."
+                  "Compliance has become a job in its own right. Builtserve takes that weight off the people responsible for building safety: directors, managing agents, and duty holders."
                 </blockquote>
                 <div className="flex items-center gap-4">
                   <Avatar className="h-14 w-14">

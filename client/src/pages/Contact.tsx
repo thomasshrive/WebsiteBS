@@ -117,7 +117,7 @@ export default function Contact() {
                     Our team has decades of combined experience in property management, fire safety, and building regulations. We've seen first-hand how duty holders struggle with the administrative burden of compliance.
                   </p>
                   <p className="text-muted-foreground leading-relaxed" data-testid="text-about-3">
-                    That's why we built ComplyFlow — to bring clarity and simplicity to a complex area, without cutting corners on safety or accountability.
+                    That's why we built BUILTSERVE: to bring clarity and simplicity to a complex area, without cutting corners on safety or accountability.
                   </p>
                 </div>
               </div>

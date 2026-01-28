@@ -39,7 +39,7 @@ const audiences = [
       "Coordinating with leaseholders and contractors",
       "Keeping records organised and accessible"
     ],
-    solution: "We take the compliance burden off your shoulders. You get a clear dashboard showing exactly where you stand, with proactive alerts before anything becomes urgent. Your liability stays with you — but we make sure you're always in a position to meet it."
+    solution: "We take the compliance burden off your shoulders. You get a clear dashboard showing exactly where you stand, with proactive alerts before anything becomes urgent. Your liability stays with you, but we make sure you're always in a position to meet it."
   },
   {
     id: "rtms",
@@ -65,20 +65,20 @@ const audiences = [
       "Finding reliable contractors",
       "Preparing for inspections at short notice"
     ],
-    solution: "One place to manage compliance across your whole portfolio. We scale with you — same process, same clarity, whether you're adding your first rental or your fiftieth."
+    solution: "One place to manage compliance across your whole portfolio. We scale with you: same process, same clarity, whether you're adding your first rental or your fiftieth."
   },
   {
     id: "facilities",
     icon: Factory,
     title: "Facilities & Asset Managers (Commercial)",
-    description: "You're responsible for keeping complex buildings compliant — offices, retail, industrial, mixed-use — while juggling audits, insurers, and internal stakeholders.",
+    description: "You're responsible for keeping complex buildings compliant: offices, retail, industrial, mixed-use, while juggling audits, insurers, and internal stakeholders.",
     challenges: [
       "Multiple regulations across different asset types",
       "Audit and insurer scrutiny",
       "Disconnected contractors and certificates",
       "Proving compliance to boards, tenants, and regulators"
     ],
-    solution: "One system of record for building compliance. Clear timelines, complete evidence, and audit-ready reporting across your portfolio — so you can demonstrate control, not just activity."
+    solution: "One system of record for building compliance. Clear timelines, complete evidence, and audit-ready reporting across your portfolio, so you can demonstrate control, not just activity."
   }
 ];
 

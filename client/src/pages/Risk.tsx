@@ -46,7 +46,7 @@ export default function Risk() {
                   </div>
                   <h2 className="text-xl font-semibold mb-3">Legal liability</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Legal liability for building safety and compliance remains with the duty holder — typically the freeholder, RTM, or responsible person under fire safety legislation.
+                    Legal liability for building safety and compliance remains with the duty holder, typically the freeholder, RTM, or responsible person under fire safety legislation.
                   </p>
                   <p className="text-muted-foreground leading-relaxed mt-3">
                     We do not assume or transfer this liability. What we do is give you the tools, information, and support to meet your obligations effectively.
@@ -64,7 +64,7 @@ export default function Risk() {
                     We manage the compliance process end-to-end: document analysis, deadline tracking, gap identification, and ongoing monitoring.
                   </p>
                   <p className="text-muted-foreground leading-relaxed mt-3">
-                    Think of us as your compliance operations team — handling the administration while you retain decision-making authority and legal responsibility.
+                    Think of us as your compliance operations team, handling the administration while you retain decision-making authority and legal responsibility.
                   </p>
                 </CardContent>
               </Card>
